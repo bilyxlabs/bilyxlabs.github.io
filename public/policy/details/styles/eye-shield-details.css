@@ -267,10 +267,88 @@
       text-decoration: none;
     }
 
+    /* Hero Mockup & Device Showcase */
+    .hero-mockup {
+      position: relative;
+      width: 100%;
+      max-width: 320px;
+      margin: 32px auto 40px;
+      perspective: 1200px;
+    }
+    .device-frame {
+      position: relative;
+      width: 100%;
+      padding: 10px;
+      background: #1a1f26;
+      border-radius: 44px;
+      box-shadow: 
+        0 40px 80px -20px rgba(2, 132, 199, 0.25),
+        0 20px 40px -15px rgba(0, 0, 0, 0.3),
+        inset 0 -2px 15px 0 rgba(255, 255, 255, 0.1);
+      transform: rotateY(-8deg) rotateX(4deg);
+      transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .hero-mockup:hover .device-frame {
+      transform: rotateY(0deg) rotateX(0deg) translateY(-10px);
+    }
+    .device-screen {
+      width: 100%;
+      height: auto;
+      border-radius: 34px;
+      display: block;
+    }
+
+    /* Screenshot Gallery */
+    .screenshots-section {
+      margin-bottom: 56px;
+    }
+    .screenshot-scroll {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding: 10px 4px 24px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--app-primary) transparent;
+      -webkit-overflow-scrolling: touch;
+    }
+    .screenshot-scroll::-webkit-scrollbar {
+      height: 6px;
+    }
+    .screenshot-scroll::-webkit-scrollbar-track {
+      background: var(--bg);
+      border-radius: 10px;
+    }
+    .screenshot-scroll::-webkit-scrollbar-thumb {
+      background: var(--app-primary-soft);
+      border-radius: 10px;
+    }
+    .screenshot-item {
+      flex: 0 0 240px;
+      border-radius: 24px;
+      overflow: hidden;
+      background: var(--surface-card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .screenshot-item:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: var(--shadow-md);
+      border-color: var(--app-primary-soft);
+    }
+    .screenshot-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 23px;
+    }
+
     @media (max-width: 780px) {
       .page { padding: 24px 18px 48px; }
       .grid-3 { grid-template-columns: 1fr; gap: 18px; }
       .sleep-card { flex-direction: column; text-align: center; gap: 16px; }
       .hero-title { font-size: 1.7rem; }
       .presets-row { gap: 12px; }
+      .hero-mockup { max-width: 260px; }
     }
