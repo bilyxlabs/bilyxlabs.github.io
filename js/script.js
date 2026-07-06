@@ -41,7 +41,7 @@ document.getElementById('footer').innerHTML = `
         <div class="social-icons">
             <a href="https://www.linkedin.com/company/bilyxlabs" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/bilyxlabs" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:adobixtech@gmail.com" title="Contact Support">
+            <a href="mailto:bilyxlabs@gmail.com" title="Contact Support">
                 <i class="fas fa-envelope"></i>
             </a>
         </div>

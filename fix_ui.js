@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const dir = '/Users/wave/AnsarAli/adobixtechs.github.io/public/policy/details';
+const dir = '/Users/wave/AnsarAli/bilyx.github.io/public/policy/details';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('-details.html') && f !== 'battery-vitals-details.html'); 
 // wait, the user's active doc is details-render.js. Let's fix ALL files.
 const allFiles = fs.readdirSync(dir).filter(f => f.endsWith('-details.html'));

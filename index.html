@@ -9,13 +9,25 @@
   <meta name="keywords" content="">
   <link rel="canonical" href="https://bilyx.in/">
 
-  <script src="public/adobix_assets/js/theme-init.js"></script>
+  <script src="public/bilyx_assets/js/theme-init.js"></script>
 
-  <!-- Favicon (Google Search needs /favicon.ico + 48px+ icon) -->
+  <!-- Favicon (Google Search: /favicon.ico + /icon.png at 48px+) -->
+  <link rel="icon" href="/icon.png" type="image/png" sizes="48x48">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
-  <link rel="icon" type="image/png" sizes="48x48" href="/public/adobix_assets/img/favicon-48x48.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/public/adobix_assets/img/favicon-192x192.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/public/adobix_assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/public/bilyx_assets/img/favicon-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/bilyx_assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Bilyx",
+    "url": "https://bilyx.in/",
+    "logo": "https://bilyx.in/public/bilyx_assets/img/bilyx-logo.png",
+    "email": "bilyxlabs@gmail.com"
+  }
+  </script>
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -25,14 +37,14 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="public/adobix_assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="public/adobix_assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="public/adobix_assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="public/adobix_assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="public/adobix_assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="public/adobix_assets/css/main.css" rel="stylesheet">
-  <link href="public/adobix_assets/css/ai-upgrade.css" rel="stylesheet">
-  <link href="public/adobix_assets/css/bilyx-tokens.css" rel="stylesheet">
+  <link href="public/bilyx_assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="public/bilyx_assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="public/bilyx_assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="public/bilyx_assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="public/bilyx_assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="public/bilyx_assets/css/main.css" rel="stylesheet">
+  <link href="public/bilyx_assets/css/ai-upgrade.css" rel="stylesheet">
+  <link href="public/bilyx_assets/css/bilyx-tokens.css" rel="stylesheet">
   <style>
   /* Flat layout: no elevation, balanced type scale */
   .index-page {
@@ -147,7 +159,7 @@
       class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
       <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="public/adobix_assets/img/bilyx-logo.png" alt="Bilyx logo">
+        <img src="public/bilyx_assets/img/bilyx-logo.png" alt="Bilyx logo">
         <h1 class="sitename">Bilyx</h1>
       </a>
       <nav id="navmenu" class="navmenu">
@@ -187,7 +199,7 @@
                   <span>EXPLORE SERVICES</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
-                <a href="mailto:adobixtech@gmail.com" class="btn hero-btn-secondary" data-open-email="adobixtech@gmail.com" data-email-subject="Project Proposal Request">
+                <a href="mailto:bilyxlabs@gmail.com" class="btn hero-btn-secondary" data-open-email="bilyxlabs@gmail.com" data-email-subject="Project Proposal Request">
                   <span>GET A PROPOSAL</span>
                 </a>
               </div>
@@ -297,7 +309,7 @@
         <div class="products-grid featured-products-grid" data-products-marquee-track data-aos="fade-up" data-aos-delay="100">
           <a href="public/policy/details/limitly-details.html" class="product-card cyber-card" aria-label="Limitly">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/limitly.png" alt="Limitly app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/limitly.png" alt="Limitly app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">Limitly</h3>
@@ -307,7 +319,7 @@
 
           <a href="public/policy/details/habit-loop-pro-details.html" class="product-card cyber-card" aria-label="Habit Loop Pro">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/habit-loop-pro.png" alt="Habit Loop Pro app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/habit-loop-pro.png" alt="Habit Loop Pro app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">Habit Loop Pro</h3>
@@ -317,7 +329,7 @@
 
           <a href="public/policy/details/focus-mode-details.html" class="product-card cyber-card" aria-label="NetLimit — Block Internet">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/netlimit.png" alt="NetLimit — Block Internet app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/netlimit.png" alt="NetLimit — Block Internet app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">NetLimit — Block Internet</h3>
@@ -327,7 +339,7 @@
 
           <a href="public/policy/details/internet-blocker-details.html" class="product-card cyber-card" aria-label="Internet Blocker">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/internet-blocker.webp" alt="Internet Blocker app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/internet-blocker.webp" alt="Internet Blocker app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">Internet Blocker</h3>
@@ -337,7 +349,7 @@
 
           <a href="public/policy/details/expense-pro-details.html" class="product-card cyber-card" aria-label="ExpenseFlow Pro">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/expense-pro.png" alt="ExpenseFlow Pro app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/expense-pro.png" alt="ExpenseFlow Pro app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">ExpenseFlow Pro</h3>
@@ -347,7 +359,7 @@
 
           <a href="public/policy/details/fincalc-pro-details.html" class="product-card cyber-card" aria-label="FinCalc Pro">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/fincalc-pro.png" alt="FinCalc Pro app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/fincalc-pro.png" alt="FinCalc Pro app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">FinCalc Pro</h3>
@@ -357,7 +369,7 @@
 
           <a href="public/policy/details/phone-pro-details.html" class="product-card cyber-card" aria-label="Phone Pro">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/phone-pro.png" alt="Phone Pro app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/phone-pro.png" alt="Phone Pro app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">Phone Pro</h3>
@@ -367,7 +379,7 @@
 
           <a href="public/policy/details/eye-shield-details.html" class="product-card cyber-card" aria-label="Eye Shield">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/eye-shield-icon.png" alt="Eye Shield app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/eye-shield-icon.png" alt="Eye Shield app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">Eye Shield</h3>
@@ -377,7 +389,7 @@
 
           <a href="public/policy/details/qr-details.html" class="product-card cyber-card" aria-label="QR">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/qr.png" alt="QR app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/qr.png" alt="QR app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">QR</h3>
@@ -387,7 +399,7 @@
 
           <a href="public/policy/details/battery-vitals-details.html" class="product-card cyber-card" aria-label="Battery Vitals">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/BatteryVitals.png" alt="Battery Vitals app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/BatteryVitals.png" alt="Battery Vitals app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">Battery Vitals</h3>
@@ -397,7 +409,7 @@
 
           <a href="public/policy/details/geosnap-details.html" class="product-card cyber-card" aria-label="GeoSnap">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/geosnap.png" alt="GeoSnap app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/geosnap.png" alt="GeoSnap app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">GeoSnap</h3>
@@ -407,7 +419,7 @@
 
           <a href="public/policy/details/bilyx-widgets-details.html" class="product-card cyber-card" aria-label="Bilyx Widgets Pro">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/bilyx-widgets.png" alt="Bilyx Widgets Pro app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/bilyx-widgets.png" alt="Bilyx Widgets Pro app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">Bilyx Widgets Pro</h3>
@@ -417,7 +429,7 @@
 
           <a href="public/policy/details/data-pilot-details.html" class="product-card cyber-card" aria-label="Bilyx DataFlow">
             <div class="product-image-wrapper">
-              <img src="public/adobix_assets/img/projects/data-pilot.png" alt="Bilyx DataFlow app icon" class="product-image">
+              <img src="public/bilyx_assets/img/projects/data-pilot.png" alt="Bilyx DataFlow app icon" class="product-image">
             </div>
             <div class="product-content">
               <h3 class="product-title">Bilyx DataFlow</h3>
@@ -427,7 +439,7 @@
 
         </div>
         <div class="products-cta" data-aos="fade-up" data-aos-delay="150">
-          <a href="mailto:adobixtech@gmail.com" class="btn products-cta-btn" data-open-email="adobixtech@gmail.com" data-email-subject="App Idea Discussion">Discuss Your App Idea</a>
+          <a href="mailto:bilyxlabs@gmail.com" class="btn products-cta-btn" data-open-email="bilyxlabs@gmail.com" data-email-subject="App Idea Discussion">Discuss Your App Idea</a>
         </div>
       </div>
     </section><!-- /Products / Apps Section -->
@@ -598,7 +610,7 @@
           <div class="contact-info">
             <div class="contact-item">
               <i class="bi bi-envelope"></i>
-              <a href="mailto:adobixtech@gmail.com">adobixtech@gmail.com</a>
+              <a href="mailto:bilyxlabs@gmail.com">bilyxlabs@gmail.com</a>
             </div>
           </div>
         </div>
@@ -623,16 +635,16 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="public/adobix_assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="public/adobix_assets/vendor/php-email-form/validate.js"></script>
-  <script src="public/adobix_assets/vendor/aos/aos.js"></script>
-  <script src="public/adobix_assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="public/adobix_assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="public/adobix_assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="public/adobix_assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="public/bilyx_assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="public/bilyx_assets/vendor/php-email-form/validate.js"></script>
+  <script src="public/bilyx_assets/vendor/aos/aos.js"></script>
+  <script src="public/bilyx_assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="public/bilyx_assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="public/bilyx_assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="public/bilyx_assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="public/adobix_assets/js/main.js"></script>
+  <script src="public/bilyx_assets/js/main.js"></script>
 
 </body>
 

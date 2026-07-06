@@ -775,7 +775,7 @@
    * Contact email links — reliable open on mobile (mailto) and desktop (Gmail compose)
    */
   function initContactEmailLinks() {
-    const DEFAULT_EMAIL = 'adobixtech@gmail.com';
+    const DEFAULT_EMAIL = 'bilyxlabs@gmail.com';
 
     function openMailto(url) {
       const link = document.createElement('a');
