@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Limitly",
+    "slug": "limitly-details",
+    "category": "Productivity",
+    "icon": "/public/bilyx_assets/img/projects/limitly.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tools.limity.appblock&hl=en_IN"
+  },
+  {
+    "name": "Habit Loop Pro",
+    "slug": "habit-loop-pro-details",
+    "category": "Productivity",
+    "icon": "/public/bilyx_assets/img/projects/habit-loop-pro.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tools.habitloop.app&hl=en_IN"
+  },
+  {
+    "name": "NetLimit — Block Internet",
+    "slug": "focus-mode-details",
+    "category": "Productivity",
+    "icon": "/public/bilyx_assets/img/projects/netlimit.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tools.focusinternetblocker&hl=en"
+  },
+  {
+    "name": "Internet Blocker",
+    "slug": "internet-blocker-details",
+    "category": "Productivity",
+    "icon": "/public/bilyx_assets/img/projects/internet-blocker.webp",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tools.internet.blocker&hl=en_IN"
+  },
+  {
+    "name": "ExpenseFlow Pro",
+    "slug": "expense-pro-details",
+    "category": "Finance",
+    "icon": "/public/bilyx_assets/img/projects/expense-pro.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.finance.expensesflow.pro&hl=en_IN"
+  },
+  {
+    "name": "FinCalc Pro",
+    "slug": "fincalc-pro-details",
+    "category": "Finance",
+    "icon": "/public/bilyx_assets/img/projects/fincalc-pro.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.finance.calculator.fincalc.pro.app&hl=en"
+  },
+  {
+    "name": "Phone Pro",
+    "slug": "phone-pro-details",
+    "category": "Utility",
+    "icon": "/public/bilyx_assets/img/projects/phone-pro.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tools.phonefree&hl=en_IN"
+  },
+  {
+    "name": "Eye Shield",
+    "slug": "eye-shield-details",
+    "category": "Utility",
+    "icon": "/public/bilyx_assets/img/projects/eye-shield-icon.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tool.eyeshieldpro&hl=en_IN"
+  },
+  {
+    "name": "QR",
+    "slug": "qr-details",
+    "category": "Utility",
+    "icon": "/public/bilyx_assets/img/projects/qr.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tools.quickqr.pro&hl=en_IN"
+  },
+  {
+    "name": "Battery Vitals",
+    "slug": "battery-vitals-details",
+    "category": "Utility",
+    "icon": "/public/bilyx_assets/img/projects/BatteryVitals.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tools.battery.vitals&hl=en_IN"
+  },
+  {
+    "name": "GeoSnap",
+    "slug": "geosnap-details",
+    "category": "Utility",
+    "icon": "/public/bilyx_assets/img/projects/geosnap.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.geosnap.gpscamera&hl=en"
+  },
+  {
+    "name": "Bilyx Widgets Pro",
+    "slug": "bilyx-widgets-details",
+    "category": "Utility",
+    "icon": "/public/bilyx_assets/img/projects/bilyx-widgets.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.bilyx.widgets&hl=en_IN"
+  },
+  {
+    "name": "Bilyx DataFlow",
+    "slug": "data-pilot-details",
+    "category": "Utility",
+    "icon": "/public/bilyx_assets/img/projects/data-pilot.png",
+    "playStore": "https://play.google.com/store/apps/details?id=com.tools.datapilot.monitor&hl=en_IN"
+  }
+]

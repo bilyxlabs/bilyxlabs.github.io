@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-User-agent: Googlebot
-Allow: /favicon.ico
-Allow: /icon.png
+Sitemap: https://bilyx.in/sitemap.xml
