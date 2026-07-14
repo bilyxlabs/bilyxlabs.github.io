@@ -353,8 +353,26 @@
                               "@type": "Answer",
                               "text": "All Bilyx apps are available on Google Play. Visit the All Apps page at bilyx.in/products.html or each app's detail page for direct download links."
                         }
+                  },
+                  {
+                        "@type": "Question",
+                        "name": "Who is the product consultant?",
+                        "acceptedAnswer": {
+                              "@type": "Answer",
+                              "text": "Sambolin is Bilyx's product consultant via Picotee Loop. He helps teams improve retention and reduce uninstalls through focused 30- or 60-minute sessions."
+                        }
                   }
             ]
+      },
+      {
+            "@type": "Person",
+            "@id": "https://bilyx.in/#sambolin",
+            "name": "Sambolin",
+            "jobTitle": "Product Consultant",
+            "image": "https://bilyx.in/public/bilyx_assets/img/team/sambolin.webp",
+            "url": "https://bilyx.in/#consultant",
+            "worksFor": { "@id": "https://bilyx.in/#organization" },
+            "description": "Product consultant at Bilyx via Picotee Loop, focused on app retention, onboarding, and reducing uninstall rates."
       }
     ]
   }
@@ -498,6 +516,55 @@
       --text-6xl: 1.45rem;
     }
   }
+
+  .index-page .consultant-board {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1.5rem 2rem;
+    max-width: 42rem;
+    margin: 0 auto;
+  }
+
+  .index-page .consultant-avatar {
+    flex: 0 0 auto;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .index-page .consultant-copy {
+    flex: 1 1 16rem;
+    min-width: 0;
+  }
+
+  .index-page .consultant-copy h3 {
+    margin: 0 0 0.2rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+
+  .index-page .consultant-role {
+    margin: 0 0 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent-color, #4338ca);
+  }
+
+  .index-page .consultant-copy p {
+    margin: 0 0 1rem;
+    font-size: var(--text-base, 0.9375rem);
+    line-height: 1.65;
+    max-width: 34rem;
+  }
+
+  .index-page .consultant-copy .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
   </style>
 </head>
 
@@ -518,6 +585,7 @@
           <li><a href="#products">Products</a></li>
           <li><a href="products.html">All Apps</a></li>
           <li><a href="#features">Features</a></li>
+          <li><a href="#consultant">Consultant</a></li>
           <li><a href="privacy-policy.html">Privacy Policy</a></li>
           <!-- <li><a href="#contact">Contact</a></li> -->
         </ul>
@@ -872,6 +940,27 @@
       </div>
     </section>
 
+    <section id="consultant" class="consultant section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="text-gradient">Product Consultant</h2>
+        <div><span>Meet Our</span> <span class="description-title">Advisor</span></div>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="consultant-board">
+          <img class="consultant-avatar" src="public/bilyx_assets/img/team/sambolin.webp" alt="Sambolin, Product Consultant at Bilyx" width="400" height="400" loading="lazy" decoding="async">
+          <div class="consultant-copy">
+            <h3>Sambolin</h3>
+            <p class="consultant-role">Product Consultant · Picotee Loop</p>
+            <p>Helps app teams improve retention and cut uninstalls — by fixing onboarding friction and turning product insights into clear next steps.</p>
+            <a class="btn btn-shimmer" href="https://cal.com/picotee.loop" target="_blank" rel="noopener noreferrer">
+              <span>Book a consultation</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="faq" class="faq section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Frequently Asked Questions</h2>
@@ -896,6 +985,10 @@
               <details class="faq-item">
                 <summary>Where can I download Bilyx apps?</summary>
                 <p>All apps are on Google Play. Visit our <a href="products.html">All Apps</a> page or each app&apos;s detail page for direct download links.</p>
+              </details>
+              <details class="faq-item">
+                <summary>Who is the product consultant?</summary>
+                <p>Sambolin is Bilyx&apos;s product consultant via Picotee Loop. He helps teams improve retention and reduce uninstalls through focused 30- or 60-minute sessions. <a href="#consultant">Meet Sambolin</a> or <a href="https://cal.com/picotee.loop" target="_blank" rel="noopener noreferrer">book a call</a>.</p>
               </details>
             </div>
           </div>
@@ -973,6 +1066,7 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#products">Products</a></li>
             <li><a href="products.html">All Apps</a></li>
+            <li><a href="#consultant">Consultant</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#features">Features</a></li>
           </ul>
